@@ -1,2 +1,2 @@
 # electron_test
-# 简单的electorn
+简单的electorn
