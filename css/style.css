@@ -1,0 +1,65 @@
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0;}
+body,input,textarea{font-family:"Microsoft Yahei";}
+textarea{resize:none;outline:0;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+input{vertical-align:middle;outline:0;}
+embed,img,object{vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400;}
+abbr,fieldset,img{border:0;}
+ol,ul{list-style-type:none;}
+caption,th{text-align:left;}
+a:focus,embed{outline:0;}
+p:after,p:before{content:'';}
+a{text-decoration:none;cursor:pointer;color:#7ea4cc;outline:0;hide-focus:expression(this.hideFocus = true);}
+.clearfix:after{clear:both;content:'.';display:block;width:0;height:0;visibility:hidden;}
+.clearfix{zoom:1;}
+.hide{display:none;}
+body{position: relative;width:935px;height:849px;background: url(../images/main-bg.png) 0 0 no-repeat;}
+.min{position: absolute;right: 15px;top: 164px;border:none;outline:none;cursor:pointer;width:35px;height:35px;background: url(../images/min1.png);}
+.min:hover{background-image: url(../images/min2.png);}
+.close{position: absolute;right:53px;top: 150px;border:none;outline:none;cursor:pointer;width:38px;height:38px;background: url(../images/close1.png);}
+.close:hover{background-image: url(../images/close2.png);}
+.container{position: absolute;left:297px;top:197px;width:580px;height:368px;background:url(../images/bg.jpg) no-repeat;}
+.nav li{float:left;}
+.nav li.pay{padding-right:120px;}
+.nav li a{display:block;width:115px;height:27px;}
+.nav li span{display:block;width:115px;height:27px;}
+.login-wrap{padding:44px 0 0 16px;}
+.news{float:left;padding-top:1px;width:278px;}
+.banner,.comiis_wrapad{width:278px;height:115px;overflow:hidden;position:relative;}
+.comiis_wrapad img{margin-top:0;}
+.slideshow{clear:both;}
+.slideshow li{position:relative;overflow:hidden;}
+.slideshow li img{width:278px;height:115px}
+.comiis_wrapad .title{padding:0 10px;height:32px;font-size:14px;font-weight:700;line-height:32px;overflow:hidden;}
+.slideshow span.title{position:absolute;bottom:0;left:0;margin-bottom:0;width:100%;height:32px;line-height:32px;font-size:14px;text-indent:10px;}
+.slidebar li,.slideshow span.title{background:rgba(0,0,0,.3);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#30000000, endColorstr=#30000000);color:#FFF;overflow:hidden;}
+.slidebar{position:absolute;bottom:5px;right:5px;}
+.slidebar li.on{background:rgba(255,255,255,.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);color:#ff0;font-weight:700;}
+.slidebar li{float:left;margin-right:1px;width:20px;height:20px;line-height:20px;text-align:center;font-size:10px;cursor:pointer;}
+.list{font-size:12px;}
+.list h3{padding:7px 4px 0 0;margin-bottom:13px;height:28px;line-height:28px;font-weight:400;color:#fad781;font-size:12px;border-bottom:1px solid #fff;}
+.list h3 a{float:right;color:#fad781;}
+.list ul{height:110px;overflow:hidden;}
+.list ul li{padding-left:16px;height:24px;line-height:24px;vertical-align:bottom;background:url(../images/dot.png) 5px center no-repeat;}
+.list ul li .date{float:right;color:#c1a76a;}
+.list li a .text{float:left;display:inline-block;width:195px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.list li a{color:#c1a76a;}
+.login{float:left;width:262px;}
+.login .inputs{padding:0 0 0 72px;margin-bottom:12px;}
+.login .inputs input{width:151px;padding:0 10px;height:40px;line-height:40px;border:none;background:url(../images/input.png) no-repeat;outline:0;color:#fff;}
+.login .account{background:url(../images/account.png) 0 center no-repeat;}
+.login .password{background:url(../images/password.png) 0 center no-repeat;}
+.login .choice{padding-left:51px;width:190px;font-size:12px;line-height:18px;}
+.login .choice a.forget{float:right;margin-right:13px;color:#7c725c;}
+.login .choice .to-reg{float:right;color:#7c725c;}
+.login .choice span{color:#c06429;}
+.login .switch{padding-top:7px;}
+.login .switch .submit-btn{display:inline-block;width:155px;height:50px;background:url(../images/start.png);}
+.login .switch .login-btn{margin-left:72px;}
+.login .switch .to-login{float:left;width:72px;height:50px;line-height:50px;color:#c1a76a;font-size:12px;}
+.error{padding-left:72px;height:24px;line-height:24px;color:#ff3b2c;font-size:12px;}
+.checkbox{display:inline-block;padding-left:20px;background:url(../images/1.png) 0 center no-repeat;cursor:pointer;}
+.checked{background-image:url(../images/1-1.png);}
